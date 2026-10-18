@@ -1,0 +1,26 @@
+plugins {
+    id 'com.android.application'
+}
+
+android {
+    namespace 'com.zip2apk.template'
+    compileSdk 34
+
+    defaultConfig {
+        // placeholder – ZipToApk rewrites this string inside the binary manifest
+        applicationId 'com.zip2apk.generated'
+        minSdk 21
+        targetSdk 29
+        versionCode 1
+        versionName '1.0'
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+        }
+    }
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+}
