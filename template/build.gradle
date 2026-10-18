@@ -10,7 +10,7 @@ android {
         // placeholder – ZipToApk rewrites this string inside the binary manifest
         applicationId 'com.zip2apk.generated'
         minSdk 21
-        targetSdk 29
+        targetSdk 34
         versionCode 1
         versionName '1.0'
     }
