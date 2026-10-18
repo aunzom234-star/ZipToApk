@@ -1,0 +1,5 @@
+build/
+.gradle/
+local.properties
+app/src/main/assets/template.apk
+app/src/main/assets/zip2apk.p12
